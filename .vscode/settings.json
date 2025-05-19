@@ -1,0 +1,11 @@
+{
+    "python.testing.pytestArgs": [
+        ".",
+        "-v",
+        "-s"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "pytest_runner.pytest_exe": 
+    "D:\\lesya\\fork_project\\New_les_py\\venv\\Scripts\\activate.bat"
+}
