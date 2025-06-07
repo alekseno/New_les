@@ -1,10 +1,3 @@
-"""x = list(map(int, input().split()))
-a = x[0]
-b = x[1]
-lst =  [i for i in range(a, b +1)]
-print(*lst)"""
-
-# второе решение
 a, b = [int(x) for x in input().split()]
 lst = (range(a, b + 1))
 print(*lst)
