@@ -20,7 +20,7 @@ editor.wordWrap - файл- настройки- параметры- в поис�
 CTRL + SHIFT + P
 Terminal: Select Default Profile»  (терминал первый по списку)
 
-1. Открыть командную строку VS Code и ввести команду python--version
+1. Открыть командную строку VS Code и ввести команду python --version
 python -m venv venv
 2. установка виртуального окружения > 
 или зайти в папку с проектом нажать на путь(он пропадет), ввести cmd и там прописать команду
@@ -34,7 +34,10 @@ python.exe -m pip install --upgrade pip
 
 5.1 Скопировать gitignor с другого проекта
 5.2 Скопировать setting.json и launch.json из другого проекта в vs code и вставить в свой в папку .vscode
-6. установка requirements.txt> pip install -r requirements.txt 
+6. установка requirements.txt из жугого проекта> pip install -r requirements.txt 
+
+установка своего файла requirements со всеми модулями:
+pip freeze > requirements.txt
 
 В терминале: pip install pytest 
 В requirements  отобразиться : 
